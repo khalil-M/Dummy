@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D39D304A-1F33-452C-86EA-8089E173FC0E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9839383-D2A9-44FA-88DA-7D5239B712F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Business/DummyDownloadMagnager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getDummy(productUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9839383-D2A9-44FA-88DA-7D5239B712F3 - 67fbc7f60d21ebe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "C9839383-D2A9-44FA-88DA-7D5239B712F3 - 4a17be6546686c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C9839383-D2A9-44FA-88DA-7D5239B712F3 - 4a17be6546686c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAE6C927-B01D-4C31-BF4E-1A533F52C51D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Data/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "fetch(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8B1CBF3-A37E-4154-926D-5D2B484D0053"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Business/DummyDownloadMagnager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getDummy(productUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8B1CBF3-A37E-4154-926D-5D2B484D0053 - 4a17be6546686c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F8B1CBF3-A37E-4154-926D-5D2B484D0053 - 4a17be6546686c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29ADFDC8-E4F8-40FB-B77F-A6AE6D667B7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Business/DummyDownloadMagnager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getDummy(productUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29ADFDC8-E4F8-40FB-B77F-A6AE6D667B7A - 4a17be6546686c11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "29ADFDC8-E4F8-40FB-B77F-A6AE6D667B7A - 4a17be6546686c11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Dummy.NetworkError&gt;) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E8469FF-D7CA-4CDE-9AFC-A251DF34A579"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Data/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetch(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E8469FF-D7CA-4CDE-9AFC-A251DF34A579 - a194c5f9164c58a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; Dummy.NetworkError in static Dummy.NetworkManager.fetch(from: Swift.String) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Dummy.NetworkError&gt;"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Data/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9E8469FF-D7CA-4CDE-9AFC-A251DF34A579 - a194c5f9164c58a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; Dummy.NetworkError in static Dummy.NetworkManager.fetch(from: Swift.String) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Dummy.NetworkError&gt;"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Data/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "409A6DCB-1845-4002-A1D8-7876C34D892E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dummy/Business/DummyDownloadMagnager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getDummy(productUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "409A6DCB-1845-4002-A1D8-7876C34D892E - 994b63a07d81efe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Dummy.DummyResponse) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "409A6DCB-1845-4002-A1D8-7876C34D892E - 994b63a07d81efe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Dummy.DummyResponse) -&gt; () in Dummy.DummyDownloadMagnager.getDummy(productUrl: Swift.String) -&gt; ()"
+                  moduleName = "Dummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ADMIN/Desktop/Dummy/Dummy/Business/DummyDownloadMagnager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
