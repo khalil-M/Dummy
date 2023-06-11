@@ -13,33 +13,36 @@ struct ProductView: View {
     @State private var searchText = ""
     
     var body: some View {
-        VStack {
-            SearchBar(text: $searchText)
-                .padding(.horizontal)
-                .textFieldStyle(.roundedBorder)
-                .padding(.horizontal)
-            
-            List {
-                ForEach(viewModel.products.filter { searchText.isEmpty || $0.title.localizedCaseInsensitiveContains(searchText) }) { product in
-                    NavigationLink {
-                        ProductDetailView(product: product)
-                    } label: {
-                        ProductCell(product: product)
+        NavigationView {
+            VStack {
+                SearchBar(text: $searchText)
+                    .padding(.horizontal)
+                    .padding(.top, -80)
+                    .textFieldStyle(.roundedBorder)
+                    .padding(.horizontal)
+                
+                List {
+                    ForEach(viewModel.products.filter { searchText.isEmpty || $0.title.localizedCaseInsensitiveContains(searchText) }) { product in
+                        NavigationLink(destination: ProductDetailView(product: product)) {
+                            ProductCell(product: product)
+                        }
+                        .buttonStyle(.plain)
+                        .listRowBackground(Color.clear)
                     }
-                    .buttonStyle(.plain)
-                    .listRowBackground(Color.clear)
+                }
+                .listStyle(.plain)
+                .onAppear {
+                    viewModel.getProducts()
                 }
             }
-            .listStyle(.plain)
-            .onAppear {
-                viewModel.getProducts()
-            }
         }
+        .navigationTitle("Products")
     }
 }
 
-struct ProductsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductView()
-    }
-}
+
+//struct ProductsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProductView()
+//    }
+//}
