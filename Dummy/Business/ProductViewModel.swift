@@ -1,5 +1,5 @@
 //
-//  DummyDownloadMagnager.swift
+//  ProductViewModel.swift
 //  Dummy
 //
 //  Created by Khalil on 6/10/23.
@@ -15,7 +15,7 @@ protocol DummyDownloadManager {
     func getProducts()
 }
 
-final class DummyDownloadMagnager: ObservableObject, DummyDownloadManager {
+final class ProductViewModel: ObservableObject, DummyDownloadManager {
     
     @Published var products = [Product]()
     private var cancellables = Set<AnyCancellable>()
@@ -28,7 +28,7 @@ final class DummyDownloadMagnager: ObservableObject, DummyDownloadManager {
     
     
     private func getDummy(productUrl: String) {
-        NetworkManager<DummyResponse>
+        NetworkManager<ProductResponse>
             .fetch(from: productUrl)
             .sink { completion in
                 switch completion {

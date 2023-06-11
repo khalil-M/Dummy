@@ -13,12 +13,18 @@ import Foundation
 
 // MARK: - Product
 struct Product: Codable, Identifiable {
-    let id: Int
-    let title, description: String
-    let price: Int
-    let discountPercentage, rating: Double
-    let stock: Int
-    let brand, category: String
-    let thumbnail: String
-    let images: [String]
+    var id: Int
+    var title, description: String
+    var price: Int
+    var discountPercentage: Double
+    var rating: Double
+    var stock: Int
+    var brand, category: String
+    var thumbnail: String {
+        return "https://i.dummyjson.com/data/products/\(id)/thumbnail.jpg"
+    }
+    var formattedRating: Double {
+            return rating / 10
+    }
+    var images: [String]
 }

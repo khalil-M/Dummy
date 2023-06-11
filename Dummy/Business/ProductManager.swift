@@ -1,5 +1,5 @@
 //
-//  DummyManager.swift
+//  ProductManager.swift
 //  Dummy
 //
 //  Created by Khalil on 6/10/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class DummyManager: ObservableObject {
+final class ProductManager: ObservableObject {
     static var baseURL = "https://dummyjson.com/products"
     
     private func getReview(for product: Product) {
