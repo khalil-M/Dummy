@@ -17,13 +17,12 @@ struct ProductDetailView: View {
     
     var body: some View {
         ZStack(alignment: .top) {
-//            backgroundView
+            backgroundView
             ScrollView(.vertical, showsIndicators: false)  {
                 VStack {
                     headerView
-//                    moviePosterView
+                    productPosterView
                     productDescription
-//                    reviewLink
                 }
                 .padding(.top, 84)
                 .padding(.horizontal, 32)
@@ -41,32 +40,38 @@ struct ProductDetailView: View {
         }
         .foregroundColor(.white)
     }
+  
+    private var productPosterView: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHStack(spacing: 20) {
+                ForEach(product.images, id: \.self) { imageURL in
+                    CachedAsyncImage(url: URL(string: imageURL)) { img in
+                        img
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 200, height: 320)
+                            .cornerRadius(20)
+                    } placeholder: {
+                        Rectangle()
+                            .foregroundColor(Color.gray.opacity(0.4))
+                            .frame(width: 200, height: 320)
+                            .cornerRadius(20)
+                    }
+                }
+            }
+            .padding(.horizontal)
+        }
+    }
     
-//    private var moviePosterView: some View {
-//        HStack(alignment: .center) {
-//            Spacer()
-//            CachedAsyncImage(url: URL(string: movie.posterPath)) { img in
-//                img.resizable()
-//            } placeholder: {
-//                Rectangle().foregroundColor(Color.gray.opacity(0.4))
-//            }
-//            .frame(width: 200, height: 320)
-//            .animation(.easeInOut(duration: 0.5))
-//            .transition(.opacity)
-//            .scaledToFill()
-//            .cornerRadius(20)
-//            Spacer()
-//        }
-//    }
     
-//    private var x: some View {
-//        CachedAsyncImage(url: URL(string: movie.posterPath)) { img in
-//            img.resizable()
-//        } placeholder: {
-//            Rectangle().foregroundColor(Color.gray.opacity(0.4))
-//        }
-//        .blur(radius: 100)
-//    }
+    private var backgroundView: some View {
+        CachedAsyncImage(url: URL(string: product.thumbnail)) { img in
+            img.resizable()
+        } placeholder: {
+            Rectangle().foregroundColor(Color.gray.opacity(0.4))
+        }
+        .blur(radius: 100)
+    }
     
     private var productDescription: some View {
         Text(product.description ?? "")
@@ -76,23 +81,7 @@ struct ProductDetailView: View {
             .padding(.top, 16)
     }
     
-//    private var reviewLink: some View {
-//        VStack {
-//            Divider()
-//            NavigationLink {
-//                MovieReviewView()
-//            } label: {
-//                HStack {
-//                    Text("Reviews")
-//                        .font(.body)
-//                        .fontWeight(.medium)
-//                    Spacer()
-//                }
-//            }
-//            Divider()
-//        }
-//        .foregroundColor(.white)
-//    }
+    
 }
 
 //struct MovieDetailView_Previews: PreviewProvider {
