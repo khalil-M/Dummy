@@ -15,6 +15,7 @@ struct ProductView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // Search bar at the top with padding adjustments
                 SearchBar(text: $searchText)
                     .padding(.horizontal)
                     .padding(.top, -80)
@@ -36,6 +37,7 @@ struct ProductView: View {
                 }
             }
         }
+        // Set the navigation title
         .navigationTitle("Products")
     }
 }

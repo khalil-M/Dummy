@@ -11,13 +11,14 @@ struct ProductDetailView: View {
     
     let product: Product
     
+    // Initialize the view with a product
     init(product: Product) {
         self.product = product
     }
     
     var body: some View {
         ZStack(alignment: .top) {
-            backgroundView
+            backgroundView // Background view with a blurred product thumbnail
             ScrollView(.vertical, showsIndicators: false)  {
                 VStack {
                     headerView
@@ -31,6 +32,7 @@ struct ProductDetailView: View {
         .edgesIgnoringSafeArea(.all)
     }
     
+    // View displaying the header (product title and category)
     private var headerView: some View {
         VStack(alignment: .leading) {
             Text(product.title)
@@ -41,6 +43,7 @@ struct ProductDetailView: View {
         .foregroundColor(.white)
     }
   
+    // View displaying the horizontal scrollable product posters
     private var productPosterView: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(spacing: 20) {
@@ -63,7 +66,7 @@ struct ProductDetailView: View {
         }
     }
     
-    
+    // Background view with a blurred product thumbnail
     private var backgroundView: some View {
         CachedAsyncImage(url: URL(string: product.thumbnail)) { img in
             img.resizable()
@@ -73,6 +76,7 @@ struct ProductDetailView: View {
         .blur(radius: 100)
     }
     
+    // View displaying the product description
     private var productDescription: some View {
         Text(product.description ?? "")
             .foregroundColor(.white)
@@ -80,8 +84,6 @@ struct ProductDetailView: View {
             .fixedSize(horizontal: false, vertical: true)
             .padding(.top, 16)
     }
-    
-    
 }
 
 //struct MovieDetailView_Previews: PreviewProvider {

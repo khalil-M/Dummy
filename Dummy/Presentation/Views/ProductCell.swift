@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+
 struct ProductCell: View {
     let product: Product
     
@@ -25,6 +26,7 @@ struct ProductCell: View {
         }
     }
     
+    // View displaying the product rates
     @ViewBuilder
     private var productRates: some View {
         ZStack {
@@ -42,10 +44,9 @@ struct ProductCell: View {
                 .foregroundColor(.orange)
                 .font(.subheadline)
         }
-        
     }
-
-
+    
+    // View displaying the movie title
     private var movieTitle: some View {
         Text(product.title)
             .font(.system(size: 15))
@@ -53,6 +54,7 @@ struct ProductCell: View {
             .foregroundColor(.blue)
     }
     
+    // View displaying the product poster
     private var productPoster: some View {
         CachedAsyncImage(url: URL(string: product.thumbnail)) { img in
             img.resizable()
@@ -67,12 +69,14 @@ struct ProductCell: View {
         .shadow(radius: 15)
     }
     
+    // View displaying the product category
     private var productCategory: some View {
         Text(product.category ?? "")
             .foregroundColor(.black)
             .font(.subheadline)
     }
     
+    // View displaying the product description
     private var productDescription: some View {
         Text(product.description ?? "")
             .foregroundColor(.gray)

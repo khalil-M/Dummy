@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Response from API
 struct ProductResponse: Codable {
     var products: [Product]
     var total, skip, limit: Int
