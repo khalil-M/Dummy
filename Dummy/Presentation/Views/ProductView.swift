@@ -18,7 +18,6 @@ struct ProductView: View {
                 // Search bar at the top with padding adjustments
                 SearchBar(text: $searchText)
                     .padding(.horizontal)
-                    .padding(.top, -80)
                     .textFieldStyle(.roundedBorder)
                     .padding(.horizontal)
                 
